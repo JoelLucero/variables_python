@@ -28,6 +28,26 @@ E) Exponente/Potencia
   se ha realizado la operación
   ej: La suma entre 4.2 y 6.5 es 10.7
 '''
+print('Ingrese los numeros de la operacion :')
 
-print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+print('Ingrese primer numero:')
+numero_1 = float(input())
+
+print('Ingrese segundo numero :')
+numero_2 = float(input())
+#suma
+operacion_1 = numero_1 + numero_2
+print ('La suma entre', numero_1, 'y', numero_2, 'es:', operacion_1)
+#resta
+operacion_2 = numero_1 - numero_2
+print ('La resta entre', numero_1, 'y', numero_2, 'es:', operacion_2)
+#multiplicacion
+operacion_3 = numero_1 * numero_2
+print ('La multiplicación entre', numero_1, 'y', numero_2, 'es:', operacion_3)
+#division 
+operacion_4 = numero_1 / numero_2
+print ('La division entre', numero_1, 'y', numero_2, 'es:', operacion_4)
+#exponente
+operacion_5 = numero_1 ** numero_2
+print ('La potencia entre', numero_1, 'y', numero_2, 'es:', operacion_5)
